@@ -1,0 +1,3 @@
+/home/hisim/2017Bahar/YapayZekaT/04_03_17_U2/CMakeFiles/rebuild_cache.dir
+/home/hisim/2017Bahar/YapayZekaT/04_03_17_U2/CMakeFiles/edit_cache.dir
+/home/hisim/2017Bahar/YapayZekaT/04_03_17_U2/CMakeFiles/facerec_video.dir

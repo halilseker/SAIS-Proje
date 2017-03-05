@@ -1,0 +1,10 @@
+1-)Yüz tanıma uygulaması yapmak için linkini yazdığım adresteki uygulamayı dendedim. Link= http://docs.opencv.org/2.4/modules/contrib/doc/facerec/tutorial/facerec_video_recognition.html?highlight=face
+
+2-)Derlerken Cmake de hata almadım ancak make yaptığımda <opencv2/contrib/contrib.hpp> dosya ya da dizin bulunamadı hatası verdi.
+
+3-) hataya sebep olan opencv2 kütüphanesini bulmak için "$find / -name opencv2"
+komutunu çalıştırdığımda kütüphane dosyasının yerini / buldum ve gerçekten orda böyle kütüphane mevcut olmadığını teyid ettim.
+
+4-) Bu eksik olan kütüphaneyi yüklemek için opencv3-2 kütüphanesinin kurulumuna başladım ancak kurulumdan sonra make install yaptığımda bi kaç hata verdi bunun sebebi de opencv standart kütüphanesini zaten sisteme yüklemiş olduğumdan; ikisinde de ortak olan kütüphanelerin zaten /usr/local/include/ dizininde mevcut olmasından olduğunu düşünüyorum
+
+

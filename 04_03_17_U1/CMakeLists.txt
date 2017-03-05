@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( VideoDetectorum )
+find_package( OpenCV REQUIRED )
+add_executable( VideoDetectorum VideoDetectorum.cpp )
+target_link_libraries( VideoDetectorum ${OpenCV_LIBS} )
